@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: #805858;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+}
+
+.info {
+  font-weight: bold;
+}

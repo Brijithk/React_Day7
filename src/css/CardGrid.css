@@ -1,0 +1,38 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+  padding: 90px;
+}
+
+.card {
+  background: #a8a2a2;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.card.selected {
+  background: #c0eaff;
+}
+
+.card.matched {
+  background: #b4f7a8;
+  color: white;
+}
+.congrats-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #66d151;
+  color: #fff;
+  padding: 30px 50px;
+  border-radius: 10px;
+  font-size: 28px;
+  text-align: center;
+  z-index: 999;
+}
